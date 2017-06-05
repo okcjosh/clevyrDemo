@@ -4,14 +4,8 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Callback from '@/components/Callback'
 import Dashboard from '@/components/Dashboard'
-// import AuthService from '.././auth/AuthService'
-
-// let auth = new AuthService()
-
-// const { authenticated } = auth
 
 Vue.use(Router)
-
 const router = new Router({
   mode: 'history',
   routes: [

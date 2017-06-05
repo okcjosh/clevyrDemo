@@ -5,6 +5,11 @@ import router from './../router'
 
 export default class AuthService {
 
+  RESTRICTED_ROUTES = [
+    '/dashboard',
+    '/projects'
+  ]
+
   authenticated = this.isAuthenticated()
   authNotifier = new EventEmitter()
 
@@ -13,6 +18,15 @@ export default class AuthService {
     this.setSession = this.setSession.bind(this)
     this.logout = this.logout.bind(this)
     this.isAuthenticated = this.isAuthenticated.bind(this)
+
+    router.beforeEach((to, from, next) => {
+      if (this.RESTRICTED_ROUTES.indexOf(to.path) > -1) {
+        if (this.isAuthenticated()) return next()
+
+        return next('/home')
+      }
+      next()
+    })
   }
 
   auth0 = new auth0.WebAuth({
