@@ -1,6 +1,6 @@
 <template>
   <div>
-<navbar></navbar>
+  <navbar v-bind:auth="auth"></navbar>
     <div class="container">
       <router-view
         :auth="auth"
@@ -23,6 +23,7 @@ export default {
   name: 'app',
   data () {
     authNotifier.on('authChange', authState => {
+      // console.log(authState)
       this.authenticated = authState.authenticated
     })
     return {

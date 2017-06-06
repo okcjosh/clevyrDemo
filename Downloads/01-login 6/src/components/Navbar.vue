@@ -28,27 +28,8 @@
   </nav>
 </template>
 <script>
-
-  import AuthService from '../auth/AuthService'
-  const auth = new AuthService()
-
-  const { login, logout, authenticated, authNotifier } = auth
-
   export default {
     name: 'navbar',
-    props: 'default',
-    data () {
-      authNotifier.on('authChange', authState => {
-        this.authenticated = authState.authenticated
-      })
-      return {
-        auth,
-        authenticated
-      }
-    },
-    methods: {
-      login,
-      logout
-    }
+    props: ['auth']
   }
 </script>

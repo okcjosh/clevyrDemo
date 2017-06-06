@@ -68,12 +68,13 @@ export default class AuthService {
   }
 
   logout () {
+    // console.log('Logging out')
     // Clear access token and ID token from local storage
     localStorage.removeItem('access_token')
     localStorage.removeItem('id_token')
     localStorage.removeItem('expires_at')
     this.userProfile = null
-    this.authNotifier.emit('authChange', false)
+    this.authNotifier.emit('authChange', { authenticated: false })
     // navigate to the home route
     router.replace('home')
   }
