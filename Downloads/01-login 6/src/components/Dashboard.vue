@@ -6,8 +6,7 @@
 
 <script>
   export default {
-    name: 'dashboard',
-    props: ['auth', 'authenticated']
+    name: 'dashboard'
   }
 </script>
 

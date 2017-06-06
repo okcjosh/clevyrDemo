@@ -8,6 +8,7 @@ import Dashboard from '@/components/Dashboard'
 Vue.use(Router)
 const router = new Router({
   mode: 'history',
+  linkActiveClass: 'is-active',
   routes: [
     {
       path: '/home',
