@@ -16,6 +16,9 @@
       <router-link class="nav-item is-tab" :to="{ path: 'svg' }">
         <i class="fa fa-paint-brush"></i> SVG
       </router-link>
+      <router-link class="nav-item is-tab" :to="{ path: 'api' }">
+        <i class="fa fa-paint-brush"></i> API
+      </router-link>
     </div>
     <div class="nav-right">
       <span class="nav-item">

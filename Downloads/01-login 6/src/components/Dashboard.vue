@@ -1,11 +1,13 @@
 <template>
   <div class="Dashboard">
-    <h1>BALLS</h1>
+    <techs></techs>
   </div>
 </template>
 
 <script>
+  import Techs from '../techs/Techs'
   export default {
+    components: {Techs},
     name: 'dashboard'
   }
 </script>

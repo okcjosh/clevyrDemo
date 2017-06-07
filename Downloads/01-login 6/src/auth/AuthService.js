@@ -7,7 +7,10 @@ export default class AuthService {
 
   RESTRICTED_ROUTES = [
     '/dashboard',
-    '/projects'
+    '/projects',
+    '/svg',
+    '/api',
+    '/bash'
   ]
 
   authenticated = this.isAuthenticated()
