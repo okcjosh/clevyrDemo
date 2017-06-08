@@ -8,7 +8,7 @@ import axios from 'axios'
 import auth from './auth/AuthService'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost:3000'
+axios.defaults.baseURL = 'http://ec2-52-25-23-217.us-west-2.compute.amazonaws.com:3000'
 
 axios.interceptors.response.use((response) => {
   return response
