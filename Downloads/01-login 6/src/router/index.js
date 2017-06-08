@@ -7,7 +7,7 @@ import Dashboard from '@/components/Dashboard'
 import SVG from '@/components/SVG'
 import Bash from '@/components/Bash'
 import API from '@/components/API'
-import projects from '@/components/projects'
+// import projects from '@/components/projects'
 
 Vue.use(Router)
 const router = new Router({
@@ -29,11 +29,11 @@ const router = new Router({
       name: 'Dashboard',
       component: Dashboard
     },
-    {
-      path: '/projects',
-      name: 'projects',
-      component: projects
-    },
+    // {
+    //   path: '/projects',
+    //   name: 'projects',
+    //   component: projects
+    // },
     {
       path: '/svg',
       name: 'SVG',
