@@ -1,0 +1,93 @@
+[
+  {
+    "key": "gulp",
+    "title": "Gulp",
+    "logo": "http://fountainjs.io/assets/imgs/gulp.png",
+    "text1": "The streaming build system",
+    "text2": "Automate and enhance your workflow"
+  },
+  {
+    "key": "vue",
+    "title": "Vue.js 2",
+    "logo": "http://fountainjs.io/assets/imgs/vue.png",
+    "text1": "Reactive Components for Modern Web Interfaces",
+    "text2": "Write some HTML, grab some JSON, create a Vue instance, that's it."
+  },
+  {
+    "key": "browsersync",
+    "title": "Browsersync",
+    "logo": "http://fountainjs.io/assets/imgs/browsersync.png",
+    "text1": "Time-saving synchronised browser testing",
+    "text2": "It’s wicked-fast and totally free"
+  },
+  {
+    "key": "scss",
+    "title": "Sass",
+    "logo": "http://fountainjs.io/assets/imgs/sass.png",
+    "text1": "Syntactically Awesome Style Sheets.",
+    "text2": "CSS with superpowers."
+  },
+  {
+    "key": "babel",
+    "title": "Babel",
+    "logo": "http://fountainjs.io/assets/imgs/babel.png",
+    "text1": "Babel is a JavaScript compiler",
+    "text2": "Use next generation JavaScript, today"
+  },
+  {
+    "key": "eslint",
+    "title": "ESLint",
+    "logo": "http://fountainjs.io/assets/imgs/eslint.png",
+    "text1": "The pluggable linting utility for JavaScript and JSX.",
+    "text2": "1 tool for identifying and reporting on patterns found in ECMAScript/JavaScript code."
+  },
+  {
+    "key": "karma",
+    "title": "Karma",
+    "logo": "http://fountainjs.io/assets/imgs/karma.png",
+    "text1": "Spectacular Test Runner for JavaScript",
+    "text2": "Things should be simple. We believe in testing and so we want to make it as simple as possible"
+  },
+  {
+    "key": "webpack",
+    "title": "Webpack",
+    "logo": "http://fountainjs.io/assets/imgs/webpack.png",
+    "text1": "Webpack is a module bundler",
+    "text2": "Webpack, the production / unbiased / flexible / extensible / open source module bundler"
+  },
+  {
+    "key": "vue-router",
+    "title": "Vue-Router 2",
+    "logo": "http://fountainjs.io/assets/imgs/vue.png",
+    "text1": "Advanced Routing for Vue.js PWA tooling",
+    "text2": "Write some components, grab some routes, create a Vue instance, that's it."
+  },
+  {
+    "key": "vuex",
+    "title": "VUEX",
+    "logo": "http://fountainjs.io/assets/imgs/vue.png",
+    "text1": "State Management Patterns for Vue.js",
+    "text2": "Vuex is a state management pattern + library for Vue.js applications."
+  },
+  {
+    "key": "snapsvg",
+    "title": "SNAP.SVG",
+    "logo": "http://snapsvg.io/assets/images/logo.svg",
+    "text1": "The JavaScript SVG library for the modern web.",
+    "text2": "A rich animation library and easy event handing."
+  },
+  {
+    "key": "fountainjs",
+    "title": "FountainJS",
+    "logo": "http://fountainjs.io/assets/imgs/artworks/fountainjs-logo6-machine.png",
+    "text1": "One Yeoman generator for all your frontend projects.",
+    "text2": "Fountain is a new Yeoman generator allowing the user to choose the most structurant technologies."
+  },
+  {
+    "key": "yeoman",
+    "title": "YEOMAN",
+    "logo": "http://yeoman.io/static/yeoman-character-sticker.51cef7e007.png",
+    "text1": "THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS.",
+    "text2": "Yeoman is a generic scaffolding system allowing the creation of any kind of app."
+  }
+]
