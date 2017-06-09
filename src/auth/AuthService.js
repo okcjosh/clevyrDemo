@@ -6,9 +6,6 @@ import router from './../router'
 export default class AuthService {
 
   RESTRICTED_ROUTES = [
-    '/projects',
-    '/svg',
-    '/bash'
   ]
 
   authenticated = this.isAuthenticated()
